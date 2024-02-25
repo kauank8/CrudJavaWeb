@@ -31,13 +31,13 @@
 			<tr>
 				<td colspan="4">
 					<input class="input_data" type="text" id="nome" name="nome" placeholder="Nome"
-					value='<c:out value="${professor.nome }"></c:out>'>>
+					value='<c:out value="${professor.nome }"></c:out>'>
 				</td>	
 			</tr>
 			<tr>
 				<td colspan="4">
 					<input class="input_data" type="text" id="titulacao" name="titulacao" placeholder="Titulacao"
-					value='<c:out value="${professor.titulacao }"></c:out>'>>
+					value='<c:out value="${professor.titulacao }"></c:out>'>
 				</td>	
 			</tr>
 			<tr>
@@ -48,10 +48,10 @@
 					<input type="submit" id="botao" name="botao" value="Alterar">
 				</td>
 				<td>
-					<input type="submit" id="botao" name="botao" value="Exluir">
+					<input type="submit" id="botao" name="botao" value="Excluir">
 				</td>
 				<td>
-					<input type="submit" id="botao" name="botao" value="Listar"">
+					<input type="submit" id="botao" name="botao" value="Listar">
 				</td>
 			</tr>
 		</table>
